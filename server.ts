@@ -20,8 +20,7 @@ import { InspectionRecord } from './src/types';
 async function startServer() {
   console.log('🚀 Starting Legal Metrology Compliance Inspector...');
   const app = express();
-  const PORT = 3000;
-
+const PORT = Number(process.env.PORT) || 3000;
   // High payload limit for camera photo uploads / label base64 images
   app.use(express.json({ limit: '50mb' }));
   app.use(express.urlencoded({ extended: true, limit: '50mb' }));
