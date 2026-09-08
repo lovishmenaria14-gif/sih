@@ -1,0 +1,6 @@
+{
+  "name": "Legal Metrology Compliance Inspector",
+  "description": "Automated scanner and compliance auditing system for packaged commodities under the Legal Metrology Act, 2009 & Packaged Commodities Rules, 2011.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
